@@ -8,7 +8,7 @@
 
 # 簡単な使い方
 ## ダウンロード
-通常は、[Relase](/releases/latest)から、`booth_order_list.exe` をダウンロードして使ってください。
+通常は、[Relase](https://github.com/hinananoha/booth-order-list/releases/latest)から、`booth_order_list.exe` をダウンロードして使ってください。
 
 ## 実行
 ダウンロードした `booth_order_list.exe` を宛名印刷用CSVファイルと同じフォルダに置いてください。
