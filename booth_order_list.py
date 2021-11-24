@@ -20,11 +20,7 @@ def main():
 
     args = parser.parse_args()
 
-    filename = args.file
-    if not os.path.isfile(filename):
-        raise FileExistsError('File is not found.')
-
-    with open(filename, 'r', encoding='utf-8_sig') as f:
+    with open(args.file, 'r', encoding='utf-8_sig') as f:
         csv_data = csv.reader(f)
         data = [e for e in csv_data]
 
