@@ -26,7 +26,7 @@ def main():
 
     if not data:
         raise ValueError('CSV file is empty or not csv file.')
-    elif not len(data[0]) == 15:
+    elif len(data[0]) != 15:
         raise ValueError('This csv file is not booth order file.')
 
     date_range = []
