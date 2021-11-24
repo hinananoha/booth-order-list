@@ -28,9 +28,7 @@ def main():
         csv_data = csv.reader(f)
         data = [e for e in csv_data]
 
-    if not data:
-        raise ValueError('CSV file is empty or not csv file.')
-    elif not len(data[0]) == 15:
+    if len(data[0]) != 15:
         raise ValueError('This csv file is not booth order file.')
 
     date_range = []
