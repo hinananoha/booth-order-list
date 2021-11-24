@@ -93,7 +93,7 @@ optional arguments:
 以下、このスクリプトを使って色々なことをしたい、上級者向けの説明です。
 
 ## Requirement (Tested environment)
-- Python 3.x
+- Python 3.7 or greater than
   - tested env
     - ubuntu 18.04 (Python 3.6.9)
     - Windows 10 x64 (Python 3.9.2)
