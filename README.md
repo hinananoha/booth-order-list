@@ -71,8 +71,8 @@ optional arguments:
   - 商品数の多い店舗で大量の注文が来たときに、わかりやすい注文リストが欲しい時に重宝します（作成者は当初これが欲しくて作りました）。
 
 ## 今月の注文の出力
-- `booth_order_list.exe -f FILE -o OUTPUT -u`
-- `booth_order_list.exe --file FILE --output OUTPUT --current`
+- `booth_order_list.exe -f FILE -o OUTPUT -c`
+- `booth_order_list.exe --file FILE --output OUTPUT --current-month`
   - `FILE`に指定したBOOTHの宛名印刷用CSVに書かれた注文のうち、今月の注文だけ抽出し（発送/未発送問わず）、商品毎のリストに書き換えて`OUTPUT`に指定したファイルに出力します。
   - 今月どの商品がどのくらい注文されたかリスト化したい際に重宝します。
 
